@@ -1,0 +1,143 @@
+/* =Global
+----------------------------------------------- */
+
+body,
+button,
+input,
+select,
+textarea {
+  color: #00FF00;
+  font-family:'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  background-color: #3d3c38;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: $margin-top 0 0;
+  clear: both;
+  font-weight: 600;
+}
+h1, h2, h4, h5, h6 { line-height: 1.333em; }
+h1 { font-size: 1.978em; }
+h2 { font-size: 1.777em; }
+h3 { font-size: 1.484em; }
+h4 { font-size: 1.333em; }
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-top: $margin-top;
+}
+
+a, a:hover, a:active, a:visited { color: #0000cc; }
+
+/* Text elements */
+p {
+  margin-top: $margin-top;
+}
+ul, ol {
+  margin: $margin-top 0 0 $margin-left;
+}
+ul {
+  list-style: disc;
+}
+ol {
+  list-style: decimal;
+}
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: $margin-top;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin: $margin-top 0 0 $margin-left;
+}
+b, strong {
+  font-weight: bold;
+}
+dfn, cite, em, i {
+  font-style: italic;
+}
+blockquote {
+  margin: $margin-top 0 0;
+}
+address {
+  margin: $margin-top 0 0;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  margin-top: $margin-top;
+  max-width: 100%;
+  overflow: auto;
+  padding: $margin-top;
+}
+code, kbd, tt, var {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 87.5%;
+}
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+sup,
+sub {
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.47em;
+}
+sub {
+  bottom: -0.265em;
+}
+small {
+  font-size: 0.835em;
+  line-height: 1em;
+}
+big {
+  font-size: 1.333em;
+}
+figure {
+  margin: 0;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.353em 0.626em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+table {
+  margin: $margin-top 0 0;
+  width: 100%;
+}
+th {
+  font-weight: bold;
+}
+img {
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
+  -ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+  overflow: hidden;
+}

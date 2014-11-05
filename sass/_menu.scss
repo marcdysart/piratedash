@@ -1,0 +1,27 @@
+@mixin menu-box($number) {
+  border: 5px solid gray;
+  background: lighten($main-menu-color,$number*10);
+  width: 50%;
+}
+
+$main-menu-color: #290efe;
+
+.menu1 {
+ @include menu-box(1)
+}
+
+.menu2 {
+@include menu-box(2)
+}
+
+.menu3 {
+@include menu-box(3)
+}
+
+.menu4 {
+@include menu-box(4)
+}
+
+.menu5 {
+@include menu-box(5)
+}
