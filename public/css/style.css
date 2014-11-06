@@ -466,28 +466,50 @@ input[type="button"].btn-block {
   width: 100%; }
 
 .menu1 {
-  border: 5px solid gray;
-  background: #5641fe;
-  width: 50%; }
+  background: #5641fe; }
 
 .menu2 {
-  border: 5px solid gray;
-  background: #8374fe;
-  width: 50%; }
+  background: #8374fe; }
 
 .menu3 {
-  border: 5px solid gray;
-  background: #b0a6ff;
-  width: 50%; }
+  background: #b0a6ff; }
 
 .menu4 {
-  border: 5px solid gray;
-  background: #ddd9ff;
-  width: 50%; }
+  background: #ddd9ff; }
 
 .menu5 {
-  border: 5px solid gray;
-  background: white;
-  width: 50%; }
+  background: white; }
+
+.submenu {
+  height: 100px;
+  width: 100%;
+  -webkit-transition: width 2s, -webkit-transform 2s;
+  -moz-transition: width 2s;
+  -o-transition: width 2s;
+  transition: all 2s ease; }
+
+.clicked {
+  width: 25%; }
+
+.menu1:hover {
+  background: #290efe; }
+
+.menu2:hover {
+  background: #290efe; }
+
+.menu3:hover {
+  background: #290efe; }
+
+.menu4:hover {
+  background: #290efe; }
+
+.menu5:hover {
+  background: #290efe; }
+
+.example {
+  -webkit-transition: background-color 500ms ease-out 1s;
+  -moz-transition: background-color 500ms ease-out 1s;
+  -o-transition: background-color 500ms ease-out 1s;
+  transition: background-color 500ms ease-out 1s; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,5 @@
 @mixin menu-box($number) {
-  border: 5px solid gray;
   background: lighten($main-menu-color,$number*10);
-  width: 50%;
 }
 
 $main-menu-color: #290efe;
@@ -24,4 +22,40 @@ $main-menu-color: #290efe;
 
 .menu5 {
 @include menu-box(5)
+}
+
+.submenu{
+  height: 100px;
+  width: 100%;
+  -webkit-transition: width 2s, -webkit-transform 2s;
+  -moz-transition: width 2s;
+  -o-transition: width 2s;
+  transition: all 2s ease;
+
+}
+
+.clicked{
+  width: 25%;
+}
+.menu1:hover {
+  background: $main-menu-color
+}
+.menu2:hover {
+  background: $main-menu-color
+}
+.menu3:hover {
+  background: $main-menu-color
+}
+.menu4:hover {
+  background: $main-menu-color
+}
+.menu5:hover {
+  background: $main-menu-color
+}
+
+.example {
+    -webkit-transition: background-color 500ms ease-out 1s;
+    -moz-transition: background-color 500ms ease-out 1s;
+    -o-transition: background-color 500ms ease-out 1s;
+    transition: background-color 500ms ease-out 1s;
 }
