@@ -5,6 +5,7 @@
 $('.menu1').on('click', function (e) {
   e.preventDefault();
   $(this).parent().toggleClass('clicked');
+  $('.title').toggleClass('title-small');
 });
 
 $('.menu2').on('click', function (e) {

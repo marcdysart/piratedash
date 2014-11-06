@@ -481,15 +481,25 @@ input[type="button"].btn-block {
   background: white; }
 
 .submenu {
-  height: 100px;
+  height: 300px;
   width: 100%;
+  font-size: 1.25em;
   -webkit-transition: width 2s, -webkit-transform 2s;
   -moz-transition: width 2s;
   -o-transition: width 2s;
   transition: all 2s ease; }
 
+.title {
+  text-align: center;
+  font-size: 2em;
+  transition: all 2s ease-out; }
+
+.title-small {
+  font-size: 1em; }
+
 .clicked {
-  width: 25%; }
+  width: 25%;
+  font-size: .7em; }
 
 .menu1:hover {
   background: #290efe; }
@@ -505,11 +515,5 @@ input[type="button"].btn-block {
 
 .menu5:hover {
   background: #290efe; }
-
-.example {
-  -webkit-transition: background-color 500ms ease-out 1s;
-  -moz-transition: background-color 500ms ease-out 1s;
-  -o-transition: background-color 500ms ease-out 1s;
-  transition: background-color 500ms ease-out 1s; }
 
 /*# sourceMappingURL=style.css.map */
